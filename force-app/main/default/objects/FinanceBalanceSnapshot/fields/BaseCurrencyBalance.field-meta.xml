@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>BaseCurrencyBalance</fullName>
+    <inlineHelpText>Définissez cette valeur en fonction de la conversion de devise requise pour le solde qui en résulte.</inlineHelpText>
+</CustomField>

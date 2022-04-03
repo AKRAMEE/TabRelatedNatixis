@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ContactPointType</fullName>
+    <inlineHelpText>L&apos;enregistrement du type de point de contact associé au type de canal d&apos;engagement.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

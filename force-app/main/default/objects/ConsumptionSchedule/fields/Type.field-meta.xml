@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Type</fullName>
+    <inlineHelpText>Plage : les prix de la planification utilisant uniquement la couche qui s&apos;applique à la quantité d&apos;utilisation. Bloc : l&apos;utilisation dans une limite donnée reçoit une tarification égale à la valeur de sa couche.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

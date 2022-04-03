@@ -1,0 +1,11 @@
+.Title-Related-List {
+    color: inherit;
+}
+
+.Title-Related-List:hover {
+    text-decoration: underline;
+}
+
+.THIS .slds-th__action-button.slds-dropdown-trigger.slds-dropdown-trigger_click {
+    display: none;
+}

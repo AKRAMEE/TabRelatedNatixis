@@ -1,0 +1,85 @@
+<template>
+     <!--Body -->
+
+        <article class="slds-card" style={style}>
+        <div class="slds-card__header slds-card__header_inner slds-grid" style="margin-bottom: 0px;background:#F3F2F2;border: 1px solid #DDDBDA;overflow-x: hidden !important; overflow-y: auto;">
+            <header class="slds-media slds-media_center slds-has-flexi-truncate " style="height:50px;">
+                <div class="slds-media__figure">
+                    &nbsp;<lightning-icon icon-name="custom:custom11" alternative-text="Related Record(s)" title="Related Record(s)" ></lightning-icon>
+                </div>
+                <div class="slds-media__body">
+                    <h2 class="slds-card__header-title">
+                        <a href="#" class ="Title-Related-List">
+                            <span>Related Record(s)</span>
+                        </a>
+                    </h2>
+                </div> 
+            </header>
+        </div>
+        <div class="slds-card__body slds-card__body_inner" style="background:white;margin-top: 5px;height: 300px;max-height: 300px; overflow-y: scroll;">
+            <table class="slds-table slds-table_bordered slds-table_col-bordered" role="grid">
+                    <thead>
+                        <tr class="slds-line-height_reset">
+                            <template for:each={columnsB} for:item="com">
+                                <th class="slds-text-title_caps" scope="col" key={com}>
+                                    <span class="slds-truncate " title={com}>{com}</span>
+                                </th>
+                </template>
+</tr>
+</thead>
+<tbody>
+    <template for:each={Tab} for:item="row">
+        <tr key={row.id}>
+     <td >
+                <span class="slds-grid slds-grid_align-spread">{row.Name}
+                </span>
+            </td>
+            <td>
+                <span class="slds-grid slds-grid_align-spread">{row.CreatedByName}
+                </span>
+            </td>
+            <td>
+                <span class="slds-grid slds-grid_align-spread">{row.CreatedDate}
+                </span>
+            </td>
+            </tr>
+            <template if:true={row.RecordsC}>
+                <tr key={row.RecordsC.id} >
+                    <td></td>
+                    <td colspan="2" align="center">
+                         <table class="slds-table slds-table_bordered slds-table_col-bordered" role="grid">
+                    <thead>
+                        <tr class="slds-line-height_reset">
+                            <template for:each={column} for:item="comz">
+                                <th class="slds-text-title_caps" scope="col" key={comz}>
+                                    <span class="slds-truncate " title={comz}>{comz}</span>
+                                </th>
+                </template>
+    </tr>
+    </thead>
+    <tbody>
+        <template for:each={row.RecordsC} for:item="rowC">
+        <tr key={rowC.id}>
+             <td >
+                <span class="slds-grid slds-grid_align-spread">{rowC.Name}
+                </span>
+            </td>
+            <td>
+                <span class="slds-grid slds-grid_align-spread">{rowC.Description__c}
+                </span>
+            </td>
+        </tr>
+    </template>
+    </tbody>
+    </table>
+    </td>
+    </tr>
+    </template>
+    </template>
+</tbody>
+</table>
+
+
+</div>
+</article>
+</template>

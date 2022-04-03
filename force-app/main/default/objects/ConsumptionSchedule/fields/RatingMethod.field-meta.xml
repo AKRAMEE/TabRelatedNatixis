@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>RatingMethod</fullName>
+    <inlineHelpText>Choisissez un cas d&apos;utilisation spécifique pour évaluer l&apos;utilisation dans cette planification. Correspond à une liste de sélection de contrôle pour le champ Type.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

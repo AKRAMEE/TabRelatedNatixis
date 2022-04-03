@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ProcessingOrder</fullName>
+    <inlineHelpText>L&apos;ordre de traitement du taux d&apos;utilisation entre des taux multiples. Les évaluations de la consommation sont évaluées en commençant par l&apos;ordre de traitement le plus faible.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

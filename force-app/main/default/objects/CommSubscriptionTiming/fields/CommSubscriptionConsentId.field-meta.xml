@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>CommSubscriptionConsentId</fullName>
+    <inlineHelpText>L&apos;enregistrement du consentement à l&apos;abonnement aux communications associé à la période d&apos;abonnement aux communications.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+    <type>MasterDetail</type>
+</CustomField>

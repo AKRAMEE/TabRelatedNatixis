@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>FinanceTransactionId</fullName>
+    <inlineHelpText>Transaction financière parente du cliché instantané. Les champs du cliché instantané héritent des valeurs de la transaction uniquement si le type d&apos;entité de référence de la transaction financière est une facture, un paiement, une note de crédit, une note de débit ou un remboursement.</inlineHelpText>
+    <type>Lookup</type>
+</CustomField>

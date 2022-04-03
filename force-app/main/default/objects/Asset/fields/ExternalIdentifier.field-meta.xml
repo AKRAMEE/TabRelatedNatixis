@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ExternalIdentifier</fullName>
+    <inlineHelpText>ID de l&apos;enregistrement correspondant dans un système externe.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>ActionDefinition</fullName>
+    <inlineHelpText>Recherchez et sélectionnez l&apos;action globale, l&apos;action rapide, le flux d&apos;écran ou le flux mobile associé.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

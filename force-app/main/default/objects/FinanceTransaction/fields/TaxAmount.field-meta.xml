@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>TaxAmount</fullName>
+    <inlineHelpText>Le montant total de la taxe de la modification apportée à votre entité de référence suite à une action d&apos;événement</inlineHelpText>
+</CustomField>

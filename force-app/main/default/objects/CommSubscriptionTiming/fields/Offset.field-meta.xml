@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Offset</fullName>
+    <inlineHelpText>La durée qui précède ou suit un événement ou le jour spécifique de la semaine pendant lequel vous souhaitez communiquer avec le point de contact. Définissez l&apos;unité de temps dans Unité. Par exemple, si vous définissez Unité sur « Semaine » et Décalage sur « -4 », vous communiquez avec le point de contact quatre semaines avant l&apos;événement. Si vous définissez Décalage sur « 4 », vous communiquez avec le point de contact quatre semaines après l&apos;événement. Si vous définissez Unité sur « Jour de la semaine » et Décalage sur « 1 », vous communiquez avec le point de contact le lundi. Si vous définissez Décalage sur « 7 », vous communiquez avec le point de contact le dimanche.</inlineHelpText>
+    <trackHistory>false</trackHistory>
+</CustomField>

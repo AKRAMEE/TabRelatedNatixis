@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Subtotal</fullName>
+    <inlineHelpText>Le total du montant des frais et de l&apos;ajustement. N&apos;inclut pas le montant de la taxe.</inlineHelpText>
+</CustomField>
